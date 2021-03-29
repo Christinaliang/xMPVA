@@ -1,7 +1,6 @@
-% xMVPA Version 0.1
+# xMVPA Version 0.1
 
-
-%% Requirements
+## Requirements
 
 xMVPA was developed in scripts written in C and Matlab for performance purposes. The software has been compiled using a C compiler in a Linux enviroment only due to internal library requirements, so please use a linux distribution to use this software or a linux terminal emulator in your operating system.
 
@@ -14,14 +13,14 @@ Due to the the very rescritive approval software policies and certifications req
 Another workaround that can work for both Windows and OSX would be to install a linux distribution in a virtualizer such as VirtualBOX https://www.virtualbox.org/ or VMware https://www.vmware.com/products/workstation-player.html 
  
 
-%% Installation Instructions
+## Installation Instructions
 
-***** STEP 1 ******
+### ***** STEP 1 ******
 
 Download the MATLAB Runtime installer at the latest update level for the selected release from the website at https://www.mathworks.com/products/compiler/matlab-runtime.html and dowload the latest version for Linux environments.
 
 
-***** STEP 2 ******
+### ***** STEP 2 ******
 
 Go to folder where Matlab runtime has been downloaded. The file should be called MATLAB_Runtime_XXX_glnxa64.zip where XXX is the version of the runtime. 
 
@@ -31,7 +30,7 @@ unzip -d mrun MATLAB_Runtime_XXX_glnxa64.zip
 
 A folder called "mrun" has been created, go into this folder with the terminal
 
-***** STEP 3 ******
+### ***** STEP 3 ******
 
 With the terminal pointing to this folder type the following command:
 
@@ -39,7 +38,7 @@ sudo -H ./install
 
 Follow the intructions of the dialog box Confirm your choices and click Next. Finally click on finish to exix the installer
 
-%% Running instructions
+## Running instructions
 
 Go the directory where you unzipped xmvpa.zip either using your file system explorer or through the linux terminal using unzip command.
 
