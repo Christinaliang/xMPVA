@@ -1,4 +1,4 @@
-# xMVPA Version 1.2
+# xMVPA Version 1.1
 
 ================================
 ## Requirements
